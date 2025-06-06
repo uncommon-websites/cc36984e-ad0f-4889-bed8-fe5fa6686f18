@@ -7,16 +7,51 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Your company’s pulse, at a glance"
+  subtitle="Stay ahead with real-time project visibility and productivity insights—no chasing updates, no unnecessary meetings. Built for executives with enterprise-grade security and zero data retention."
+  customers={[
+    {
+      name: "Emily Chen",
+      position: "CEO, NextPhase Health",
+      imageSrc: "/generated/image-a-confident-female-ceo-sitting-at-her-of.webp"
+    },
+    {
+      name: "Michael Lee",
+      position: "COO, Stratus Ventures",
+      imageSrc: "/generated/image-a-smiling-male-executive-in-business-cas.webp"
+    },
+    {
+      name: "Priya Sharma",
+      position: "Head of Product, Broadwave",
+      imageSrc: "/generated/image-a-focused-woman-leader-with-an-open-lapt.webp"
+    },
+    {
+      name: "Daniel Rivera",
+      position: "Founder, LogicTree Labs",
+      imageSrc: "/generated/image-a-male-tech-founder-wearing-a-casual-bla.webp"
+    },
+    {
+      name: "Ava Morgan",
+      position: "Business Strategist, Vertex Advisors",
+      imageSrc: "/generated/image-a-female-business-strategist-with-a-glas.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/stripe.com',
+		'https://logo.clearbit.com/dropbox.com',
+		'https://logo.clearbit.com/zapier.com',
+		'https://logo.clearbit.com/airbnb.com'
+	]}
+/>
 
 <Summary
 	generating
