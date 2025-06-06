@@ -121,53 +121,57 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+	{
+		name: "Alex Chen",
+		position: "Engineering Manager",
+		company: "Engineering Team",
+		quote:
+			"Mentorship and growth are part of every day here. I have the freedom to tackle ambitious projects, but there’s always someone willing to lend a hand or share advice. The learning never stops—and neither does the support.",
+		image:
+			"/generated/image-an-asian-male-engineering-manager-in-a-m.webp"
+	},
+	{
+		name: "Danielle Brooks",
+		position: "Product Designer",
+		company: "Design Team",
+		quote:
+			"From day one, people made me feel like my ideas matter. The culture is inclusive, kind, and honestly—fun. I know my voice is heard, and that inspires me to do my best work.",
+		image:
+			"/generated/image-a-young-black-woman-product-designer-in-.webp"
+	},
+	{
+		name: "Carlos Ramirez",
+		position: "Operations Specialist",
+		company: "Operations",
+		quote:
+			"Donna has become like a second family. Leadership is approachable and genuinely cares about balance, not just results. I can focus on my work knowing I’m trusted and valued.",
+		image:
+			"/generated/image-a-latino-male-operations-specialist-in-a.webp"
+	}
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+	{
+		step: 1,
+		title: "Apply",
+		description: "Send your resume or LinkedIn and a brief note on why you're interested—no cover letter required."
+	},
+	{
+		step: 2,
+		title: "Intro call",
+		description: "A quick conversation with one of our founders to align on goals and answer your questions."
+	},
+	{
+		step: 3,
+		title: "Practical challenge",
+		description: "A realistic async or live task (1–2 hours max) so your skills and thinking can shine."
+	},
+	{
+		step: 4,
+		title: "Final interview",
+		description: "Meet with founders and team, discuss approach and values, and get a sense of day-to-day collaboration."
+	}
+];
 
 	const values = [
 		{
@@ -191,16 +195,25 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build with purpose, lead with trust"
+	subtitle="Make real impact alongside a brilliant, supportive team."
+	imageSrc="/generated/image-a-modern-office-setting-featuring-a-dive.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Work with impact, growth, and trust" />
 
-	<div class="mt-16 grid gap-4 md:grid-cols-3">
+	<div class="prose max-w-screen-lg mx-auto text-lg mb-12">
+		<ul>
+			<li><strong>Build the future of executive work:</strong> Help reshape how leadership teams operate using cutting-edge AI.</li>
+			<li><strong>Zero bureaucracy, high ownership:</strong> Move fast, make decisions, and see your work ship to top-tier executives weekly.</li>
+			<li><strong>Direct impact, real companies:</strong> Work directly with CEOs and operators, and see your work used by real decision makers from day one.</li>
+			<li><strong>Be part of something early:</strong> We’re growing fast—joining now will shape the product and the culture from the ground up.</li>
+		</ul>
+	</div>
+
+	<div class="mt-10 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
 			<Card {...benefit} />
 		{/each}
@@ -208,7 +221,20 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} />
+<section class={SECTION_BASE_CLASSES}>
+	<SectionHeader title="Our culture" subtitle="How we work and what we value" />
+	<div class="prose max-w-screen-lg mx-auto text-lg mb-10">
+		<ul>
+			<li><strong>High standards, low ego:</strong> We work hard, obsess over quality, and respect each other equally.</li>
+			<li><strong>Action wins:</strong> We prioritize speed and iteration over overthinking and presentations.</li>
+			<li><strong>Build what matters:</strong> We care about solving real customer problems, not just shipping cool tech.</li>
+			<li><strong>Default to trust:</strong> Everyone has freedom to explore and ownership to build—with accountability to deliver.</li>
+			<li><strong>Clear, direct communication:</strong> Everyone is close to the founders and empowered to challenge ideas. No politics, just teamwork.</li>
+			<li><strong>Diversity & balance:</strong> We’re committed to a supportive, inclusive team, and protecting work/life balance at every level.</li>
+			<li><strong>Data privacy is our DNA:</strong> Everything we do puts privacy first—inside our product and inside our company.</li>
+		</ul>
+	</div>
+</section>
 
 <Testimonials testimonials={employeeTestimonials} />
 

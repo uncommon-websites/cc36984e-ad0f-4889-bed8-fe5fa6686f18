@@ -10,7 +10,20 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: 'Clarity over clutter',
+    description: 'We believe executives deserve straightforward answers, not busywork or noise. Every update and insight should drive clear, confident decisions.'
+  },
+  {
+    title: 'Every minute matters',
+    description: 'Time is the only thing you can’t get back. We obsess over eliminating inefficiency, pointless meetings, and information silos.'
+  },
+  {
+    title: 'Privacy, always',
+    description: 'Executives trust us because we treat their company data with unwavering care. Donna is built with security at its core—SOC-2 compliant and zero data retention.'
+  }
+]: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 

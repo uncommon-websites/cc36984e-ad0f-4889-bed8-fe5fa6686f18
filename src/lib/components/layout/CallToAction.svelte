@@ -50,11 +50,14 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
+		title = "Join an exclusive pilot cohort",
+		subtitle = "Limited early access for CEOs and executives",
+		description = "Eliminate status meetings and manual updates with an AI Chief of Staff that keeps you informed in real time. Enjoy white-glove onboarding, direct founder support, and enterprise-grade security—SOC-2 compliant with zero data retention.",
 		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-		callsToAction = [cta],
+		callsToAction = [
+			{ href: '/contact', label: 'Apply for pilot', variant: 'primary' },
+			{ href: 'mailto:founders@bondapp.io', label: 'Talk to founders', variant: 'secondary' }
+		],
 		...rest
 	}: {
 		title?: string;

@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Donna",
+	description: "Donna is an AI Chief of Staff for CEOs and executives, offering real-time project tracking and productivity analytics to replace manual updates and status meetings.",
 	image: "/og.png",
-	url: "https://example.com",
-	fontFamily: "Inter Variable"
+	url: "https://donna.com",
+	fontFamily: "Funnel Sans"
 };

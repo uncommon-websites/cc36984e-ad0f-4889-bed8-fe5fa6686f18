@@ -15,35 +15,41 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Talia Nguyen",
+      position: "CEO",
+      company: "Basis",
+      quote:
+        "Donna gives me 10 status meetings worth of clarity in a 30-second read. We save hours every week—and I always know where to focus.",
+      image: "/generated/image-a-professional-headshot-of-a-vietnamese-.webp"
+    },
+    {
+      name: "Matteo Rosser",
+      position: "COO",
+      company: "Answerly",
+      quote:
+        "The productivity insights showed us why the engineering org was slowing down—before metrics ever would. Donna paid for itself in the first month.",
+      image: "/generated/image-a-professional-headshot-of-a-black-briti.webp"
+    },
+    {
+      name: "Cheryl Lynn",
+      position: "Founder",
+      company: "Signal & Source",
+      quote:
+        "It’s like having someone quietly update me on what matters every single day, without bothering anyone on the team. Setup was instant and everyone felt the impact right away.",
+      image: "/generated/image-a-professional-headshot-of-an-east-asian.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Lead without the meetings"
+  subtitle="Know what matters, before anyone needs to tell you"
+  description="Donna is your AI Chief of Staff—offering daily, real-time visibility into projects, blockers, and productivity, no status meetings required. See what moves, what needs attention, and where to focus next. White-glove onboarding is included. Spots are limited."
+  imageSrc="/generated/image-a-happy-executive-in-a-modern-office-env.webp"
+  callsToAction={[
+    { href: '/contact', label: 'Request access', variant: 'primary' },
+    { href: 'mailto:founders@bondapp.io', label: 'Talk to founders', variant: 'secondary' }
+  ]}
+/>

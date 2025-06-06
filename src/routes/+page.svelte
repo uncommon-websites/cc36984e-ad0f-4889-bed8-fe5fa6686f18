@@ -54,107 +54,115 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="AI Chief of Staff for CEOs and executives"
+	text="Donna connects to your company tools and instantly delivers a real-time pulse on projects and productivity—no chasing updates or meetings required. SOC-2 compliant with zero data retention."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Kwame Adisa",
+			position: "COO",
+			company: "Reformas Capital",
+			quote: "Donna cut our meeting load in half. My executive team now gets instant clarity on project status, which means we can act—fast—before minor issues become risks.",
+			image: "/generated/image-an-african-male-executive-standing-in-a-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Evelyn Foster",
+			position: "CFO",
+			company: "WaveNorth Logistics",
+			quote: "Within 30 days, Donna uncovered two major process bottlenecks that were costing us tens of thousands every quarter. The real ROI is in the time and money we’re saving.",
+			image: "/generated/image-a-caucasian-female-cfo-in-a-meeting-room.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Daisuke Mori",
+			position: "Founder & CEO",
+			company: "Kairo Labs",
+			quote: "My team spends less time compiling updates, and I’m never in the dark. Donna’s daily briefings help me spot blockers before they impact delivery.",
+			image: "/generated/image-an-east-asian-male-founder-in-a-collabor.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="Know exactly what's happening in your company"
+  subtitle="Donna is your AI Chief of Staff. Get instant insight into project progress and team productivity—without the meetings and manual updates."
+  features={[
+    {
+      title: "Real-time project tracking",
+      description:
+        "See the status of every initiative across your company instantly. Donna maps project owners, deadlines, blockers, and dependencies using your team's existing tools."
+    },
+    {
+      title: "40-hour productivity analytics",
+      description:
+        "Understand how time is really being spent so you can spot inefficiencies, rebalance priorities, and increase output—without micromanaging."
+    },
+    {
+      title: "Frictionless setup",
+      description:
+        "Securely connect Slack, Asana, Notion, Jira, Google Calendar, and more—no manual input or workflow disruption required."
+    },
+    {
+      title: "Daily executive briefings",
+      description:
+        "Get a concise summary every morning of what's moving, what's stuck, and where your attention matters most—delivered straight to you."
+    },
+    {
+      title: "Enterprise-grade security",
+      description:
+        "SOC-2 compliance and a zero data retention policy ensure your company data stays protected at all times."
+    },
+    {
+      title: "Built for decision-makers",
+      description:
+        "Designed for CEOs and executives who need clarity and speed, Donna scales to any company size and amplifies your impact."
+    }
+  ]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Spot project risks without meetings",
+      description: "Get real-time visibility into project status across all teams and tools—minus the syncs and delays.",
+      image: "/generated/image-a-busy-executive-in-a-modern-glass-offic.webp",
+      link: {
+        href: "/use-cases/spot-project-risks",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "See how time is spent company-wide",
+      description: "Understand where your team's time goes each week so you can rebalance and focus on what matters.",
+      image: "/generated/image-a-ceo-in-a-conference-room-sitting-at-a-.webp",
+      link: {
+        href: "/use-cases/time-analytics",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Get real-time updates instead of daily standups",
+      description: "Donna delivers automated status updates to Slack so your team stays aligned—no meetings required.",
+      image: "/generated/image-a-leadership-team-gathered-in-a-spacious.webp",
+      link: {
+        href: "/use-cases/automated-updates",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Cut the noise. Take control with Donna."
+  subtitle="Limited pilot for CEOs and executives"
+  description="Join a select group for white-glove onboarding, fast setup, and instant visibility—no status meetings or data headaches. Reserve your spot in our exclusive pilot and see real results."
+  imageSrc="/generated/image-a-confident-executive-standing-in-a-sunl.webp"
+  callsToAction={[
+    { href: '/get-started', label: 'Join the pilot', variant: 'primary' },
+    { href: '/contact', label: 'Contact sales', variant: 'secondary' }
+  ]}
+/>

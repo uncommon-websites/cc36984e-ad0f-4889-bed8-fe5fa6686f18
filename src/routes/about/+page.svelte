@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Your AI chief of staff"
+	subtitle="Real-time project updates and productivity insights—no meetings, no guesswork. SOC-2 compliant with zero data retention."
+	imageSrc="/generated/image-a-group-of-ambitious-executive-team-memb.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Donna was born out of frustration. As former operators and busy executives, our team found themselves in the same endless loop—status meetings that told us too little, dashboards that were always out of date, and email threads asking, ‘Where does this stand?’ We weren’t trying to micromanage. We just couldn’t see what was moving, what was stuck, or what deserved our attention. We needed a better way to stay informed—without disrupting our teams.",
+		"The idea for Donna clicked during one particularly packed day of back-to-back updates. After hours of notes and calls, we realized: none of this should require so much chasing. Project data already lived across tools like Slack, Jira, Notion, and Google Calendar—we just weren’t seeing it from our seats. That’s when we asked: what if there were an AI Chief of Staff that could quietly connect the dots and surface exactly what an executive needs to know, every morning, in plain English?", 
+		"From day one, we built Donna with the oversight, trust, and security our own teams would demand. That means zero data storage—nothing gets kept—and full SOC-2 compliance. Today, Donna is running in a limited pilot cohort for CEOs and executives who want real-time visibility without the baggage of traditional updates. White-glove onboarding included. No friction, just real clarity."
 	]}
 />
 
